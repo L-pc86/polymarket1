@@ -1,0 +1,12 @@
+Polymarket 足球比赛 ID 查询器
+
+使用方式：
+1. 解压整个文件夹。
+2. 双击“启动查询器.bat”，或直接双击 index.html。
+3. 分别输入主队中文名和客队中文名，例如：主队“曼城”，客队“维拉”。
+4. 页面会返回同时匹配两支球队的 Polymarket event_id，并提供复制按钮。
+
+注意：
+- 需要电脑能访问互联网。
+- 数据来自 Polymarket 官方公开 Gamma API，不需要 API Key。
+- 如果某个中文队名查不到，可以打开 index.html，搜索 TEAM_ALIASES，补充中文名到英文队名的映射。
